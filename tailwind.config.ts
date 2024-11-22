@@ -11,6 +11,11 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#5956E9",
+        secondary: "#00FCFF",
+      },
+      backgroundImage: {
+        header: "url('/header.png')",
       },
     },
   },
