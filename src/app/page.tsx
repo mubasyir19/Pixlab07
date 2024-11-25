@@ -6,6 +6,7 @@ import {
   EnvelopeIcon,
   ChevronDownIcon,
   ArrowLongRightIcon,
+  ArrowRightIcon,
 } from "@heroicons/react/24/solid";
 import { ArrowRightCircleIcon } from "@heroicons/react/24/outline";
 
@@ -1105,6 +1106,139 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+      <section id="services" className="relative mt-28 bg-primary py-28">
+        <div className="container mx-auto flex gap-x-7">
+          <div className="w-1/2">
+            <div className="flex items-center gap-x-5">
+              <div className="h-[3px] w-8 bg-white"></div>
+              <p className="text-lg font-bold text-white">More Services</p>
+            </div>
+            <h1 className="mt-5 text-5xl font-bold text-white">
+              Transforming Your Digital <br /> Landscape
+            </h1>
+            <p className="mt-10 text-lg text-white">
+              It is a long established fact that a reader will be distracted by
+              the readable hkklj content of a page when looking at its layout.
+              Lorem Ipsum It is a long established fact that a reader will be
+              distracted by the readable
+            </p>
+            <button className="bprder-whhite group mt-7 flex items-center gap-x-2.5 rounded-md border-2 px-6 py-3 text-base font-bold text-white">
+              Read More
+              <ArrowRightCircleIcon className="h-auto w-5 text-white" />
+            </button>
+          </div>
+          <div className="w-1/2 overflow-x-visible">
+            <div className="flex gap-x-7">
+              <div className="card-service min-w-72 bg-white p-5">
+                <div className="relative">
+                  <Image
+                    src={`/strate-consulting.png`}
+                    width={260}
+                    height={220}
+                    alt="consulting"
+                    className="h-52 w-full object-cover"
+                  />
+                  <div className="absolute -bottom-10 left-4 flex h-16 w-16 items-center justify-center bg-primary">
+                    <Image
+                      src={`/coding.png`}
+                      width={40}
+                      height={40}
+                      alt="consulting"
+                      className="h-10 w-10"
+                    />
+                  </div>
+                </div>
+                <h3 className="mt-16 text-2xl font-bold text-black">
+                  Strate Consulting
+                </h3>
+                <p className="mt-1 text-lg text-[#808285]">
+                  It is a long estashe fact that a reader will be distractd by
+                  the readable content
+                </p>
+                <Link href={`#`} className="mt-2.5 flex items-center gap-x-2">
+                  <ArrowRightIcon className="h-6 text-primary" />
+                  <span className="text-lg font-bold text-black">
+                    Read More
+                  </span>
+                </Link>
+              </div>
+              <div className="card-service min-w-72 bg-white p-5">
+                <div className="relative">
+                  <Image
+                    src={`/search-engine.png`}
+                    width={260}
+                    height={220}
+                    alt="search engine"
+                    className="h-52 w-full object-cover"
+                  />
+                  <div className="absolute -bottom-10 left-4 flex h-16 w-16 items-center justify-center bg-primary">
+                    <Image
+                      src={`/Draft.png`}
+                      width={40}
+                      height={40}
+                      alt="consulting"
+                      className="h-10 w-10"
+                    />
+                  </div>
+                </div>
+                <h3 className="mt-16 text-2xl font-bold text-black">
+                  Search Engine
+                </h3>
+                <p className="mt-1 text-lg text-[#808285]">
+                  It is a long estashe fact that a reader will be distractd by
+                  the readable content
+                </p>
+                <Link href={`#`} className="mt-2.5 flex items-center gap-x-2">
+                  <ArrowRightIcon className="h-6 text-primary" />
+                  <span className="text-lg font-bold text-black">
+                    Read More
+                  </span>
+                </Link>
+              </div>
+              <div className="card-service min-w-72 bg-white p-5">
+                <div className="relative">
+                  <Image
+                    src={`/digital-marketing.png`}
+                    width={260}
+                    height={220}
+                    alt="digital marketing"
+                    className="h-52 w-full object-cover"
+                  />
+                  <div className="absolute -bottom-10 left-4 flex h-16 w-16 items-center justify-center bg-primary">
+                    <Image
+                      src={`/light.png`}
+                      width={40}
+                      height={40}
+                      alt="consulting"
+                      className="h-10 w-10"
+                    />
+                  </div>
+                </div>
+                <h3 className="mt-16 text-2xl font-bold text-black">
+                  Digital Marketing
+                </h3>
+                <p className="mt-1 text-lg text-[#808285]">
+                  It is a long estashe fact that a reader will be distractd by
+                  the readable content
+                </p>
+                <Link href={`#`} className="mt-2.5 flex items-center gap-x-2">
+                  <ArrowRightIcon className="h-6 text-primary" />
+                  <span className="text-lg font-bold text-black">
+                    Read More
+                  </span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Image
+          src={`/circular.png`}
+          width={608}
+          height={608}
+          alt="circular"
+          className="absolute left-0 top-0 h-full w-auto"
+        />
       </section>
       <section className="container mx-auto mt-28">
         <div className="grid grid-cols-4 gap-7"></div>
