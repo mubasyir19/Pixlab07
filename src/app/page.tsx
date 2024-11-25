@@ -1131,7 +1131,7 @@ export default function Home() {
               <ArrowRightCircleIcon className="h-auto w-5 text-white" />
             </button>
           </div>
-          <div className="w-1/2 overflow-x-visible">
+          <div className="w-1/2 overflow-x-scroll">
             <div className="flex gap-x-7">
               <div className="card-service min-w-72 bg-white p-5">
                 <div className="relative">
