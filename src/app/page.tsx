@@ -1240,7 +1240,7 @@ export default function Home() {
           width={608}
           height={608}
           alt="circular"
-          className="absolute left-0 top-0 h-full w-auto"
+          className="absolute left-0 top-0 z-10 h-full w-auto opacity-30"
         />
       </section>
       <section className="container mx-auto mt-28">
