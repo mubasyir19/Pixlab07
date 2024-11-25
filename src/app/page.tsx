@@ -920,7 +920,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="container mx-auto mt-28">
+      <section id="portfolio" className="container mx-auto mt-28">
         <div className="flex items-end justify-between">
           <div className="">
             <div className="flex items-center gap-x-5">
@@ -944,6 +944,54 @@ export default function Home() {
             <button className="rounded-lg bg-white px-5 py-2.5 text-lg text-black shadow-lg hover:bg-primary hover:text-white">
               Consulting
             </button>
+          </div>
+        </div>
+        <div className="mt-14">
+          <div className="flex justify-center gap-x-7">
+            <Image
+              src={`/portfolio/1.png`}
+              width={630}
+              height={328}
+              alt="1"
+              className=""
+            />
+            <Image
+              src={`/portfolio/2.png`}
+              width={300}
+              height={328}
+              alt="2"
+              className=""
+            />
+            <Image
+              src={`/portfolio/3.png`}
+              width={300}
+              height={328}
+              alt="3"
+              className=""
+            />
+          </div>
+          <div className="mt-7 flex justify-center gap-x-7">
+            <Image
+              src={`/portfolio/4.png`}
+              width={300}
+              height={328}
+              alt="4"
+              className=""
+            />
+            <Image
+              src={`/portfolio/5.png`}
+              width={300}
+              height={328}
+              alt="5"
+              className=""
+            />
+            <Image
+              src={`/portfolio/6.png`}
+              width={630}
+              height={328}
+              alt="6"
+              className=""
+            />
           </div>
         </div>
       </section>
