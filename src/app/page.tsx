@@ -5,6 +5,7 @@ import {
   MapPinIcon,
   EnvelopeIcon,
   ChevronDownIcon,
+  ArrowLongRightIcon,
 } from "@heroicons/react/24/solid";
 import { ArrowRightCircleIcon } from "@heroicons/react/24/outline";
 
@@ -915,6 +916,144 @@ export default function Home() {
                   <path d="M 12 2 C 6.477 2 2 6.477 2 12 C 2 17.523 6.477 22 12 22 C 17.523 22 22 17.523 22 12 C 22 6.477 17.523 2 12 2 z M 12 4 C 16.418 4 20 7.582 20 12 C 20 16.418 16.418 20 12 20 C 11.264382 20 10.555494 19.892969 9.8789062 19.707031 C 10.09172 19.278284 10.282622 18.826454 10.386719 18.425781 C 10.501719 17.985781 10.972656 16.191406 10.972656 16.191406 C 11.278656 16.775406 12.173 17.271484 13.125 17.271484 C 15.958 17.271484 18 14.665734 18 11.427734 C 18 8.3227344 15.467031 6 12.207031 6 C 8.1520313 6 6 8.7215469 6 11.685547 C 6 13.063547 6.73325 14.779172 7.90625 15.326172 C 8.08425 15.409172 8.1797031 15.373172 8.2207031 15.201172 C 8.2527031 15.070172 8.4114219 14.431766 8.4824219 14.134766 C 8.5054219 14.040766 8.4949687 13.958234 8.4179688 13.865234 C 8.0299688 13.394234 7.71875 12.529656 7.71875 11.722656 C 7.71875 9.6496562 9.2879375 7.6445312 11.960938 7.6445312 C 14.268937 7.6445313 15.884766 9.2177969 15.884766 11.466797 C 15.884766 14.007797 14.601641 15.767578 12.931641 15.767578 C 12.009641 15.767578 11.317063 15.006312 11.539062 14.070312 C 11.804063 12.953313 12.318359 11.747406 12.318359 10.941406 C 12.318359 10.220406 11.932859 9.6191406 11.130859 9.6191406 C 10.187859 9.6191406 9.4296875 10.593391 9.4296875 11.900391 C 9.4296875 12.732391 9.7109375 13.294922 9.7109375 13.294922 C 9.7109375 13.294922 8.780375 17.231844 8.609375 17.964844 C 8.5246263 18.326587 8.4963381 18.755144 8.4941406 19.183594 C 5.8357722 17.883113 4 15.15864 4 12 C 4 7.582 7.582 4 12 4 z"></path>
                 </svg>
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="container mx-auto mt-28">
+        <div className="flex items-end justify-between">
+          <div className="">
+            <div className="flex items-center gap-x-5">
+              <ArrowLongRightIcon className="h-6 w-auto text-primary" />
+              <p className="text-lg font-bold text-primary">Latest Portfolio</p>
+            </div>
+            <h1 className="text-5xl font-bold text-[#191919]">
+              Where Creative <br /> Meet Technology
+            </h1>
+          </div>
+          <div className="flex gap-x-6">
+            <button className="rounded-lg bg-white px-5 py-2.5 text-lg text-black shadow-lg hover:bg-primary hover:text-white">
+              All Projects
+            </button>
+            <button className="rounded-lg bg-white px-5 py-2.5 text-lg text-black shadow-lg hover:bg-primary hover:text-white">
+              Marketing
+            </button>
+            <button className="rounded-lg bg-white px-5 py-2.5 text-lg text-black shadow-lg hover:bg-primary hover:text-white">
+              Optimization
+            </button>
+            <button className="rounded-lg bg-white px-5 py-2.5 text-lg text-black shadow-lg hover:bg-primary hover:text-white">
+              Consulting
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="about" className="container mx-auto mt-28">
+        <div className="flex items-stretch gap-x-14">
+          <div className="relative h-fit w-1/2">
+            <Image
+              src={`/about1.png`}
+              width={448}
+              height={515}
+              alt="about1"
+              className="mx-auto"
+            />
+            <Image
+              src={`/about2.png`}
+              width={350}
+              height={334}
+              alt="about2"
+              className="absolute -bottom-40 right-0"
+            />
+            <Image
+              src={`/about3.png`}
+              width={194}
+              height={168}
+              alt="about2"
+              className="absolute -bottom-20 left-20"
+            />
+            <div className="absolute bottom-12 left-12 flex w-fit items-center justify-center rounded-md border-l-8 border-primary bg-[#EFEFFD] px-10 py-5">
+              <p className="text-2xl font-bold text-black">
+                Best Awarded <br /> Company
+              </p>
+            </div>
+          </div>
+          <div className="w-1/2">
+            <div className="flex items-center gap-x-5">
+              <div className="h-[3px] w-8 bg-primary"></div>
+              <p className="text-lg font-bold text-primary">About Us</p>
+            </div>
+            <h1 className="mt-5 text-5xl font-bold text-[#191919]">
+              Your Financial Success <br /> Is Our Priority
+            </h1>
+            <p className="mt-10 text-lg text-[#808285]">
+              It is a long established fact that a reader will be distracted by
+              the readable design content of a page when looking at its layout.
+              Lorem Ipsum
+            </p>
+            <div className="mt-7 grid grid-cols-2 gap-7">
+              <div className="flex items-center gap-x-4 rounded-lg bg-white px-5 py-4 shadow-lg">
+                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary">
+                  <Image
+                    src={`/settings.png`}
+                    width={40}
+                    height={40}
+                    alt="crafters"
+                    className="h-10 w-10"
+                  />
+                </div>
+                <p className="text-2xl font-bold text-black">Crafters</p>
+              </div>
+              <div className="flex items-center gap-x-4 rounded-lg bg-white px-5 py-4 shadow-lg">
+                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary">
+                  <Image
+                    src={`/coding.png`}
+                    width={40}
+                    height={40}
+                    alt="punch"
+                    className="h-10 w-10"
+                  />
+                </div>
+                <p className="text-2xl font-bold text-black">Punch</p>
+              </div>
+              <div className="flex items-center gap-x-4 rounded-lg bg-white px-5 py-4 shadow-lg">
+                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary">
+                  <Image
+                    src={`/design.png`}
+                    width={40}
+                    height={40}
+                    alt="busters"
+                    className="h-10 w-10"
+                  />
+                </div>
+                <p className="text-2xl font-bold text-black">Busters</p>
+              </div>
+              <div className="flex items-center gap-x-4 rounded-lg bg-white px-5 py-4 shadow-lg">
+                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary">
+                  <Image
+                    src={`/creative.png`}
+                    width={40}
+                    height={40}
+                    alt="dazzle"
+                    className="h-10 w-10"
+                  />
+                </div>
+                <p className="text-2xl font-bold text-black">Dazzle</p>
+              </div>
+            </div>
+            <div className="mt-12 flex gap-x-14">
+              <button className="group flex items-center gap-x-2.5 rounded-md bg-primary px-6 py-3 text-base font-bold text-white">
+                Subscribe
+                <ArrowRightCircleIcon className="h-auto w-5 text-white" />
+              </button>
+              <div className="contact flex items-center gap-x-5">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary bg-opacity-10">
+                  <PhoneIcon className="h-4 w-4 text-primary" />
+                </div>
+                <div className="">
+                  <p className="text-[#808285]">Need help?</p>
+                  <p className="font-medium text-black">(808) 555-0111</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
