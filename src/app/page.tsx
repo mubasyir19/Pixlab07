@@ -7,8 +7,11 @@ import {
   ChevronDownIcon,
   ArrowLongRightIcon,
   ArrowRightIcon,
+  UserIcon,
+  CalendarDaysIcon,
 } from "@heroicons/react/24/solid";
 import { ArrowRightCircleIcon } from "@heroicons/react/24/outline";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -1241,9 +1244,70 @@ export default function Home() {
         />
       </section>
       <section className="container mx-auto mt-28">
-        <div className="grid grid-cols-4 gap-7"></div>
+        <div className="grid grid-cols-4 gap-7">
+          <div className="flex items-center justify-center rounded-md bg-[#FAFAFB] py-12">
+            <div className="">
+              <Image
+                src={`/complete.png`}
+                width={64}
+                height={64}
+                alt="complete"
+                className="mx-auto"
+              />
+              <div className="mt-5 text-center">
+                <h1 className="text-5xl font-bold text-black">10k+</h1>
+                <h4 className="text-lg text-black">Project Completed</h4>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center justify-center rounded-md bg-[#FAFAFB] py-12">
+            <div className="">
+              <Image
+                src={`/member.png`}
+                width={64}
+                height={64}
+                alt="complete"
+                className="mx-auto"
+              />
+              <div className="mt-5 text-center">
+                <h1 className="text-5xl font-bold text-black">2k+</h1>
+                <h4 className="text-lg text-black">Team Member</h4>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center justify-center rounded-md bg-[#FAFAFB] py-12">
+            <div className="">
+              <Image
+                src={`/review.png`}
+                width={64}
+                height={64}
+                alt="complete"
+                className="mx-auto"
+              />
+              <div className="mt-5 text-center">
+                <h1 className="text-5xl font-bold text-black">3k+</h1>
+                <h4 className="text-lg text-black">Client Review</h4>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center justify-center rounded-md bg-[#FAFAFB] py-12">
+            <div className="">
+              <Image
+                src={`/award.png`}
+                width={38}
+                height={64}
+                alt="complete"
+                className="mx-auto"
+              />
+              <div className="mt-5 text-center">
+                <h1 className="text-5xl font-bold text-black">5k+</h1>
+                <h4 className="text-lg text-black">Winning Award</h4>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section className="container mx-auto mt-28">
+      <section id="review" className="container mx-auto mt-28">
         <div className="text-center">
           <div className="flex items-center justify-center gap-x-3">
             <div className="h-[2px] w-5 bg-primary"></div>
@@ -1254,8 +1318,214 @@ export default function Home() {
             Unlocking Your Online <br /> Potential
           </h3>
         </div>
+        <div className="mt-20 grid grid-cols-3 gap-7">
+          <div className="card-review px-7">
+            <div className="rate flex items-center justify-between">
+              <div className="flex items-center gap-x-6 rounded-md border border-[#E1E1E1] px-3 py-1">
+                <div className="flex items-center gap-x-1">
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                </div>
+                <p className="text-lg text-[#808285]">4.8</p>
+              </div>
+              <Image
+                src={`/quote.png`}
+                width={64}
+                height={53}
+                alt="quote"
+                className=""
+              />
+            </div>
+            <p className="mt-4 text-lg text-[#808285]">
+              There are many variations of passages of lk Lorem Ipsum available,
+              but the majority hjk have suffered alteration in{" "}
+            </p>
+            <div className="profile mt-10 flex items-center gap-x-5">
+              <Image
+                src={`/client1.png`}
+                width={70}
+                height={70}
+                alt="photo"
+                className=""
+              />
+              <div className="">
+                <p className="text-lg font-medium text-black">Elanor Pena</p>
+                <p className="text-lg text-[#808285]">Medical Assistant</p>
+              </div>
+            </div>
+          </div>
+          <div className="card-review px-7">
+            <div className="rate flex items-center justify-between">
+              <div className="flex items-center gap-x-6 rounded-md border border-[#E1E1E1] px-3 py-1">
+                <div className="flex items-center gap-x-1">
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                </div>
+                <p className="text-lg text-[#808285]">4.8</p>
+              </div>
+              <Image
+                src={`/quote.png`}
+                width={64}
+                height={53}
+                alt="quote"
+                className=""
+              />
+            </div>
+            <p className="mt-4 text-lg text-[#808285]">
+              Lorem Ipsum available, but the majority hjk have suffered
+              alteration in some form, byhl injected humour.
+            </p>
+            <div className="profile mt-10 flex items-center gap-x-5">
+              <Image
+                src={`/client2.png`}
+                width={70}
+                height={70}
+                alt="photo"
+                className=""
+              />
+              <div className="">
+                <p className="text-lg font-medium text-black">Guy Hawkins</p>
+                <p className="text-lg text-[#808285]">Marketing Coordinator</p>
+              </div>
+            </div>
+          </div>
+          <div className="card-review px-7">
+            <div className="rate flex items-center justify-between">
+              <div className="flex items-center gap-x-6 rounded-md border border-[#E1E1E1] px-3 py-1">
+                <div className="flex items-center gap-x-1">
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                  <Image
+                    src={`/star.png`}
+                    width={16}
+                    height={14}
+                    alt="star"
+                    className=""
+                  />
+                </div>
+                <p className="text-lg text-[#808285]">4.8</p>
+              </div>
+              <Image
+                src={`/quote.png`}
+                width={64}
+                height={53}
+                alt="quote"
+                className=""
+              />
+            </div>
+            <p className="mt-4 text-lg text-[#808285]">
+              We can enjoy our life by trabelling to the other place in the
+              country to refresh our mind and body.its good for
+            </p>
+            <div className="profile mt-10 flex items-center gap-x-5">
+              <Image
+                src={`/client3.png`}
+                width={70}
+                height={70}
+                alt="photo"
+                className=""
+              />
+              <div className="">
+                <p className="text-lg font-medium text-black">Ronald Richard</p>
+                <p className="text-lg text-[#808285]">Dog Trainer</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section className="container mx-auto mt-28">
+      <section id="blog" className="container mx-auto mt-28">
         <div className="text-center">
           <div className="flex items-center justify-center gap-x-3">
             <div className="h-[2px] w-5 bg-primary"></div>
@@ -1266,7 +1536,119 @@ export default function Home() {
             Digital Solution For <br /> Modern Problems
           </h3>
         </div>
+        <div className="mt-20 grid grid-cols-3 gap-7">
+          <div className="card-blog">
+            <div className="image relative">
+              <Image
+                src={`/blog1.png`}
+                width={410}
+                height={317}
+                alt="blog"
+                className="h-full w-full"
+              />
+              <div className="absolute bottom-0 left-0 flex items-center gap-x-7 bg-primary px-5 py-2.5">
+                <div className="flex items-center gap-x-2">
+                  <UserIcon className="h-4 text-white" />
+                  <p className="text-sm text-white">
+                    By <span>Admin</span>
+                  </p>
+                </div>
+                <div className="flex items-center gap-x-2">
+                  <CalendarDaysIcon className="h-4 text-white" />
+                  <p className="text-sm text-white">October 19, 2022</p>
+                </div>
+              </div>
+            </div>
+            <div className="border-b-2 border-l-2 border-r-2 border-[#E1E1E1] p-7">
+              <h3 className="text-2xl font-bold text-black">
+                Design and Development
+              </h3>
+              <p className="mt-2.5 text-lg text-[#808285]">
+                It is a long established fact that a reader kll will be
+                distracted by the readable contentjk of a page hjkl when layout.
+              </p>
+              <Link href={`#`} className="mt-4 flex items-center gap-x-2.5">
+                <ArrowRightIcon className="h-4 text-black" />
+                <span className="text-xl font-bold text-black">Read More</span>
+              </Link>
+            </div>
+          </div>
+          <div className="card-blog">
+            <div className="image relative">
+              <Image
+                src={`/blog2.png`}
+                width={410}
+                height={317}
+                alt="blog"
+                className="h-full w-full"
+              />
+              <div className="absolute bottom-0 left-0 flex items-center gap-x-7 bg-primary px-5 py-2.5">
+                <div className="flex items-center gap-x-2">
+                  <UserIcon className="h-4 text-white" />
+                  <p className="text-sm text-white">
+                    By <span>Admin</span>
+                  </p>
+                </div>
+                <div className="flex items-center gap-x-2">
+                  <CalendarDaysIcon className="h-4 text-white" />
+                  <p className="text-sm text-white">October 19, 2022</p>
+                </div>
+              </div>
+            </div>
+            <div className="border-b-2 border-l-2 border-r-2 border-[#E1E1E1] p-7">
+              <h3 className="text-2xl font-bold text-black">
+                Media Management
+              </h3>
+              <p className="mt-2.5 text-lg text-[#808285]">
+                It is a long established fact that a reader kll will be
+                distracted by the readable kll will be distracted by the
+                readable
+              </p>
+              <Link href={`#`} className="mt-4 flex items-center gap-x-2.5">
+                <ArrowRightIcon className="h-4 text-black" />
+                <span className="text-xl font-bold text-black">Read More</span>
+              </Link>
+            </div>
+          </div>
+          <div className="card-blog">
+            <div className="image relative">
+              <Image
+                src={`/blog3.png`}
+                width={410}
+                height={317}
+                alt="blog"
+                className="h-full w-full"
+              />
+              <div className="absolute bottom-0 left-0 flex items-center gap-x-7 bg-primary px-5 py-2.5">
+                <div className="flex items-center gap-x-2">
+                  <UserIcon className="h-4 text-white" />
+                  <p className="text-sm text-white">
+                    By <span>Admin</span>
+                  </p>
+                </div>
+                <div className="flex items-center gap-x-2">
+                  <CalendarDaysIcon className="h-4 text-white" />
+                  <p className="text-sm text-white">October 19, 2022</p>
+                </div>
+              </div>
+            </div>
+            <div className="border-b-2 border-l-2 border-r-2 border-[#E1E1E1] p-7">
+              <h3 className="text-2xl font-bold text-black">
+                Engine Optimization
+              </h3>
+              <p className="mt-2.5 text-lg text-[#808285]">
+                that is very ggod t will be distracted by by the e readable
+                contentjk of a page hjkl when layout. that we can enjoy
+              </p>
+              <Link href={`#`} className="mt-4 flex items-center gap-x-2.5">
+                <ArrowRightIcon className="h-4 text-black" />
+                <span className="text-xl font-bold text-black">Read More</span>
+              </Link>
+            </div>
+          </div>
+        </div>
       </section>
+      <Footer />
     </>
   );
 }
